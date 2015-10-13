@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" /> 
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta content="email=no" name="format-detection"/>
+	<title>简易音乐播放器</title>
+	<link rel="stylesheet" href="styles/media50px-min.css">
+	<link rel="stylesheet" href="styles/style-min.css">
+	<link rel="stylesheet" href="styles/animate-min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">音乐馆</div>
+		<div class="container">	
+			<div class="content">
+				<div class="ch_wrapper">
+					<ul class="clearfix"> </ul>
+				</div>
+			</div>
+			<div class="content">
+				<div class="banner">
+					<div class="banner_bg"></div>
+					<span class="rmg_block"></span>
+				</div>
+				<div class="lis_tab">
+					<div class="lis_tab_head pr">
+						<div class="head_alink">
+							<a href="javascript:;" class="hot">歌&emsp;&emsp;曲</a><a href="javascript:;">详&emsp;&emsp;情</a>
+						</div>
+						<div class="head_line trans_slide"></div>
+					</div>
+					<div class="lis_tab_body trans_slide">
+						<div class="song_item">
+							<a href="javascript:;" class="play_random">顺序播放全部</a>
+							<ul class="song_list"> </ul>
+						</div>
+						<div class="song_item song_info">
+							<div class="info_mark">
+								<div class="info_mark_wrap">
+								</div>
+							</div>
+							<div class="info_word">
+								<h5 class="info_tit"></h5>
+								<div class="info_con tal"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="play_wrap">
+					<div class="play_pic"></div>
+					<div class="play_time_axis">
+						<span class="current_t play_time">00:00</span>
+						<span class="duration_t play_time"></span>
+						<span class="time_line"><i class='time_hot_line'></i><em class="drag_ico"></em></span>
+					</div>
+					<div class="play_btn">
+						<a href="javascript:;" class="pn_btn pre_btn"></a>
+						<a href="javascript:;" class="broadcast_btn" id="broadcast_btn">
+							<i class="play_ico pos_mid" style="display:none"></i>
+							<i class="stop_ico pos_mid"></i>
+						</a>
+						<a href="javascript:;" class="pn_btn next_btn"></a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="scripts/jquery-2.1.1.min.js"></script>
+	<script src="scripts/hammer.min.js"></script>
+	<script src="scripts/lib.min.js"></script>
+	<script src="scripts/data.min.js"></script>
+	<script src="scripts/tabFLow.min.js"></script>
+</body>
+</html>
